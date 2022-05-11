@@ -17,5 +17,6 @@
 }
 
 .menu{
-  margin: 1rem 0 0 1 rem;
+
+  position:absolute; top:0; left:0;
 }
