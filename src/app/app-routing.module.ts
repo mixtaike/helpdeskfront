@@ -1,3 +1,4 @@
+import { AuthGuard } from './auth/auth.guard';
 import { LoginComponent } from './login/login.component';
 import { TecnicoListComponent } from './components/tecnico/tecnico-list/tecnico-list.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -8,7 +9,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {path:'login', component: LoginComponent},
-  {path: '', component: NavComponent, children:[
+
+  {path: '', component: NavComponent, canActivate:[AuthGuard] ,children:[
     {path: 'home', component: HomeComponent},
     {path:'tecnicos', component: TecnicoListComponent}
 
