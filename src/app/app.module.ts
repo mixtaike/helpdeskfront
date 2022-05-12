@@ -31,10 +31,12 @@ import { TecnicoDeleteComponent } from './components/tecnico/tecnico-delete/tecn
     HeaderComponent,
     TecnicoListComponent,
     LoginComponent,
+
     TecnicoCreateComponent,
     TecnicoUpdateComponent,
     TecnicoDeleteComponent,
     TecnicoListComponent,
+
     ClienteCreateComponent,
     ClienteDeleteComponent,
     ClienteListComponent,

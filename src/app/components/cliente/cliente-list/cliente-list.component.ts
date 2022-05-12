@@ -1,5 +1,5 @@
-import { ClienteService } from './../../../services/cliente.service';
-import { Cliente } from './../../../models/cliente';
+import { ClienteService } from '../../../services/cliente.service';
+import { Cliente } from '../../../models/cliente';
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatTableDataSource } from '@angular/material/table';
