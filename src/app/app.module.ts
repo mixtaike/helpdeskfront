@@ -21,6 +21,7 @@ import { ToastrModule } from 'ngx-toastr';
 import { TecnicoCreateComponent } from './components/tecnico/tecnico-create/tecnico-create.component';
 import { NgxMaskModule } from 'ngx-mask';
 import { TecnicoDeleteComponent } from './components/tecnico/tecnico-delete/tecnico-delete.component';
+import { ChamadoListComponent } from './components/chaamdos/chamado-list/chamado-list.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { TecnicoDeleteComponent } from './components/tecnico/tecnico-delete/tecn
     ClienteCreateComponent,
     ClienteDeleteComponent,
     ClienteListComponent,
-    ClienteUpdateComponent
+    ClienteUpdateComponent,
+    ChamadoListComponent
 
   ],
   imports: [
