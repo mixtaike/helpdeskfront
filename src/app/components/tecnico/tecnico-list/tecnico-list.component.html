@@ -1,7 +1,7 @@
 
 <div class="container">
   <h1 >Listando Técnicos</h1>
-  <button  mat-stroked-button color="primary">Novo técnico</button>
+  <button [routerLink]="['/tecnicos/create']" routerLinkActive="router-link-active" mat-stroked-button color="primary">Novo técnico</button>
   <mat-form-field appearance="standard">
     <mat-label>Filter</mat-label>
     <input matInput (keyup)="applyFilter($event)" placeholder="Ex. ium" #input>
