@@ -1,3 +1,4 @@
+import { ChamadoListComponent } from './components/chamados/chamado-list/chamado-list.component';
 import { ClienteUpdateComponent } from './components/cliente/cliente-update/cliente-update.component';
 import { ClienteListComponent } from './components/cliente/cliente-list/cliente-list.component';
 import { ClienteDeleteComponent } from './components/cliente/cliente-delete/cliente-delete.component';
@@ -21,7 +22,7 @@ import { ToastrModule } from 'ngx-toastr';
 import { TecnicoCreateComponent } from './components/tecnico/tecnico-create/tecnico-create.component';
 import { NgxMaskModule } from 'ngx-mask';
 import { TecnicoDeleteComponent } from './components/tecnico/tecnico-delete/tecnico-delete.component';
-import { ChamadoListComponent } from './components/chaamdos/chamado-list/chamado-list.component';
+
 
 
 @NgModule({
@@ -42,7 +43,9 @@ import { ChamadoListComponent } from './components/chaamdos/chamado-list/chamado
     ClienteDeleteComponent,
     ClienteListComponent,
     ClienteUpdateComponent,
+
     ChamadoListComponent
+
 
   ],
   imports: [
