@@ -24,6 +24,7 @@ import { NgxMaskModule } from 'ngx-mask';
 import { TecnicoDeleteComponent } from './components/tecnico/tecnico-delete/tecnico-delete.component';
 import { ChamadoCreateComponent } from './components/chamados/chamado-create/chamado-create.component';
 import { ChamadoUpdateComponent } from './components/chamados/chamado-update/chamado-update.component';
+import { ChamadoReadComponent } from './components/chamados/chamado-read/chamado-read.component';
 
 
 
@@ -48,7 +49,8 @@ import { ChamadoUpdateComponent } from './components/chamados/chamado-update/cha
 
     ChamadoListComponent,
      ChamadoCreateComponent,
-     ChamadoUpdateComponent
+     ChamadoUpdateComponent,
+     ChamadoReadComponent
 
 
   ],
